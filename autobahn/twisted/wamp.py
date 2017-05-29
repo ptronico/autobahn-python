@@ -258,11 +258,11 @@ class ApplicationRunner(object):
                                                  maxMessagePayloadSize=1048576,
                                                  autoFragmentSize=65536,
                                                  failByDrop=False,
-                                                 openHandshakeTimeout=2.5,
+                                                 openHandshakeTimeout=25.,
                                                  closeHandshakeTimeout=1.,
                                                  tcpNoDelay=True,
                                                  autoPingInterval=10.,
-                                                 autoPingTimeout=5.,
+                                                 autoPingTimeout=25.,
                                                  autoPingSize=4,
                                                  perMessageCompressionOffers=offers,
                                                  perMessageCompressionAccept=accept)
